@@ -1,5 +1,5 @@
-import { ButtonVariantType, ColorType, SizeType, TextTransformType } from '@/interfaces';
 import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from 'react';
+import { ButtonVariantType, ColorType, SizeType, TextTransformType } from '@/interfaces';
 
 interface IButtonProps
     extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {

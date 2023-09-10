@@ -2,9 +2,9 @@ import { configureStore } from '@reduxjs/toolkit';
 import rootReducer, { RootState } from './rootReducer';
 
 const makeStore = () =>
-  configureStore({
-    reducer: rootReducer,
-  });
+    configureStore({
+        reducer: rootReducer,
+    });
 
 const store = makeStore();
 

@@ -2,9 +2,11 @@ import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 
 import 'windi.css';
+import './global.css';
+import Header from '../layout/header/Header';
 
 export const metadata: Metadata = {
-    title: 'Mamoru Admin Dashboard',
+    title: 'Son',
     description: 'Create by LB',
 };
 
@@ -16,6 +18,7 @@ export default function RootLayout({ children }: IRootLayoutProps) {
     return (
         <html lang="en">
             <body>
+                <Header />
                 <main>{children}</main>
             </body>
         </html>

@@ -1,0 +1,49 @@
+.container {
+    @apply w-full max-w-1440px mx-auto px-5 lg:(px-2);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+}
+
+.abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    color: #293140;
+}
+
+.mySwiper::-webkit-scrollbar {
+    width: 10px; /* Set the scrollbar width */
+    margin-bottom: 100px; /* Add a 50px margin to the right side */
+}
+
+/* Customize the scrollbar track */
+.mySwiper::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+.mySwiper::-webkit-scrollbar-thumb {
+    background: #888; /* Set the color of the scrollbar thumb */
+}

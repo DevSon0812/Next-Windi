@@ -8,6 +8,14 @@ const nextConfig = {
         config.plugins.push(new WindiCSSWebpackPlugin());
         return config;
     },
+    remotePatterns: [
+        {
+            protocol: 'https',
+        },
+    ],
+    images: {
+        domains: ['images.unsplash.com'],
+    },
 };
 
 module.exports = nextConfig;

@@ -1,18 +1,13 @@
 'use client';
 
-import { Button } from '@/components/primitive';
+import Categories from '@/components/categories/Categories';
+import Banner from '@/components/banner/Banner';
 
 export default function Home() {
     return (
-        <div className="h-screen w-screen flex items-center justify-center">
-            <Button
-                variant="text"
-                color="primary"
-                size="large"
-                textTransform="capitalize"
-            >
-                Click me
-            </Button>
-        </div>
+        <main className="container">
+            <Banner />
+            <Categories />
+        </main>
     );
 }

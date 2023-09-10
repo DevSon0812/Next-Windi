@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "label": "living room",
+            "image": "https://images.unsplash.com/photo-1613685301586-4f2b15f0ccd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGl2aW5ncm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 2,
+            "label": "home office",
+            "image": "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGhvbWUlMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 3,
+            "label": "bed room",
+            "image": "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVkJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 4,
+            "label": "dining room",
+            "image": "https://images.unsplash.com/photo-1595329088732-d3b286981166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpbmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 6,
+            "label": "room set",
+            "image": "https://images.unsplash.com/photo-1509764986935-841accffc894?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJvb20lMjBzZXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 7,
+            "label": "out door",
+            "image": "https://images.unsplash.com/photo-1439396812601-0b512add529f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxvdXIlMjBkb29yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 8,
+            "label": "decor",
+            "image": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVjb3J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 9,
+            "label": "smart room",
+            "image": "https://images.unsplash.com/photo-1486946255434-2466348c2166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNtYXIlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        }
+    ]
+}
