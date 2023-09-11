@@ -4,15 +4,10 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
 // components
+import { ICategoriesProps } from '@/interfaces';
 import Title from '../primitive/Text/Title';
 import Category from '../compound/category/Category';
 import categories from '../../../public/api/categories.json';
-
-export interface ICategoriesProps {
-    id?: number;
-    image: string;
-    label: string;
-}
 
 function Categories() {
     const swiperConfig = {

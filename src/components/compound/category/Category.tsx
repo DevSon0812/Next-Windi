@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import CustomImages from '@/components/images/Images';
-import { ICategoriesProps } from '@/components/categories/Categories';
+import { ICategoriesProps } from '@/interfaces';
 
 function Category({ id, image, label }: ICategoriesProps) {
     return (

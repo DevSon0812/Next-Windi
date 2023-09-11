@@ -8,6 +8,7 @@
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:jsx-a11y/recommended",
+        "next",
         "airbnb"
     ],
     "env": {
@@ -85,7 +86,9 @@
         "react/no-unknown-property": ["error", { "ignore": ["jsx"] }],
         "indent": "off",
         "max-len": "off",
-        "react/no-unstable-nested-components": "off"
+        "react/no-unstable-nested-components": "off",
+        "@next/next/no-page-custom-font": "off",
+        "react/no-unescaped-entities": "off"
     },
     "settings": {
         "react": {
