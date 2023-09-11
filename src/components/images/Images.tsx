@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import React from 'react';
 
 type Props = {
-    src: string;
+    src: string | any;
     alt: string;
     priority?: boolean;
     className?: string;

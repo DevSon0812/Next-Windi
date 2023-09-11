@@ -1,5 +1,5 @@
 .container {
-    @apply w-full max-w-1440px mx-auto px-5 lg:(px-2);
+    @apply w-full max-w-1600px mx-auto px-5 lg:(px-2);
     overflow: hidden;
 }
 

@@ -7,7 +7,7 @@ interface Title {
 export default function Title({ title, className }: Title) {
     return (
         <h4
-            className={`text-2xl font-bold  text-center mb-4 uppercase lg:(text-4xl mb-8) ${className}`}
+            className={`text-xl font-bold  text-center mb-4 uppercase md:(text-2xl) lg:(text-3xl mb-8) ${className}`}
         >
             {title}
         </h4>
