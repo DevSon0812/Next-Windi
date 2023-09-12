@@ -20,8 +20,8 @@ function Categories() {
         breakpoints: {
             320: { slidesPerView: 1.5 },
             500: { slidesPerView: 2.5 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 5 },
+            768: { slidesPerView: 3.5 },
+            1024: { slidesPerView: 5.5 },
         },
     };
 
