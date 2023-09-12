@@ -1,15 +1,17 @@
 import CustomImages from '@/components/images/Images';
-import Banner1 from '../../assets/images/bannerRosewood.jpg';
 
 function Banner() {
     return (
-        <section className="w-full mt-4 mb-6 lg:(mt-8 mb-12)">
+        <section className="container w-full mt-4 mb-6 lg:(mt-8 mb-12) relative">
             <CustomImages
                 className="w-full h-300px rounded-md
-								 mx-auto relative md:(h-500px) lg:(h-600px)"
-                src={Banner1}
+								 mx-auto  md:(h-500px) lg:(h-screen) object-cover"
+                src="https://images.pexels.com/photos/13990237/pexels-photo-13990237.jpeg?auto=compress&cs=tinysrgb&w=2200"
                 alt="Banner Hero"
             />
+            <div className="abs-center text-4xl text-[#fff] font-font-extrabold lg:(text-8xl tracking-tighter) ">
+                RoseWood
+            </div>
         </section>
     );
 }

@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 2,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 3,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1551298370-9d3d53740c72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 4,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 5,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1552324190-9e86fa095c4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 6,
+            "name": "HENK CAVE CHAIR",
+            "price": 344,
+            "category": "living room",
+            "sale": true,
+            "image": "https://images.unsplash.com/photo-1579656592043-a20e25a4aa4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    ]
+}

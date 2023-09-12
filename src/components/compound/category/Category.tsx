@@ -5,7 +5,7 @@ import { ICategoriesProps } from '@/interfaces';
 function Category({ id, image, label }: ICategoriesProps) {
     return (
         <div
-            className=" flex flex-col gap-3"
+            className=" flex flex-col gap-3 mt-2 lg:(mt-8)"
             key={id}
         >
             <CustomImages

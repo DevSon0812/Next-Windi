@@ -18,16 +18,19 @@ function Categories() {
         modules: [Scrollbar],
         className: 'mySwiper',
         breakpoints: {
-            320: { slidesPerView: 1 },
-            500: { slidesPerView: 2 },
+            320: { slidesPerView: 1.5 },
+            500: { slidesPerView: 2.5 },
             768: { slidesPerView: 3 },
             1024: { slidesPerView: 5 },
         },
     };
 
     return (
-        <section>
-            <Title title="Categories" />
+        <section className="container">
+            <Title
+                className="text-center"
+                title="Categories"
+            />
             <Swiper {...swiperConfig}>
                 {categories.categories?.map((category: ICategoriesProps) => (
                     <SwiperSlide key={`category-item-${category.id}`}>
