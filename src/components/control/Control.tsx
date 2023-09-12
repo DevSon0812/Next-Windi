@@ -2,7 +2,7 @@ import CustomImages from '@/components/images/Images';
 
 export default function Control() {
     return (
-        <section className="container my-10 grid grid-cols-1 gap-5 lg:(my-20 grid-cols-2)">
+        <section className="w-full max-w-1600px mx-auto px-5 my-10 grid grid-cols-1 gap-5 lg:(my-20 grid-cols-2)">
             <div className=" relative row-span-2">
                 <CustomImages
                     className=" h-180px md:(h-240px) lg:(h-500px) w-full rounded-xl"
