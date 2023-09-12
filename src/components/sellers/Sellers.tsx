@@ -27,7 +27,7 @@ export default function Seller() {
 
     return (
         <section className="w-full bg-[#f9f8f4] py-5 lg:(py-16)">
-            <div className="container">
+            <div className="w-full max-w-1600px mx-auto px-5">
                 <div className="flex items-center justify-between w-full">
                     <Title
                         className="text-left"

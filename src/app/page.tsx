@@ -5,6 +5,7 @@ import Banner from '@/components/banner/Banner';
 import Seller from '@/components/sellers/Sellers';
 import Control from '@/components/control/Control';
 import Featured from '@/components/featured/Featured';
+import Collections from '@/components/collections/Collections';
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Seller />
             <Control />
             <Featured />
+            <Collections />
         </main>
     );
 }

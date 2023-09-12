@@ -9,7 +9,7 @@ function Category({ id, image, label }: ICategoriesProps) {
             key={id}
         >
             <CustomImages
-                className=" w-full h-200px rounded-md cursor-pointer object-cover"
+                className="w-full h-200px rounded-md cursor-pointer object-cover  scale-scale-90 transition-all duration-300 hover:(scale-scale-110)"
                 alt="category"
                 src={image}
             />

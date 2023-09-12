@@ -8,7 +8,7 @@ import { Navbar } from '../navbar/Navbar';
 
 export default function Header() {
     return (
-        <div className="container">
+        <div className="w-full max-w-1600px mx-auto px-5">
             <div className="flex items-center justify-between uppercase py-2 text-xs font-medium border-b-1px lg:(py-5 text-sm)">
                 <div className="flex items-center gap-8  ">
                     <Link href="#">Register</Link>

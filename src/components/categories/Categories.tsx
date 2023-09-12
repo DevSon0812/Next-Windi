@@ -26,7 +26,7 @@ function Categories() {
     };
 
     return (
-        <section className="container">
+        <section className="w-full max-w-1600px mx-auto px-5">
             <Title
                 className="text-center"
                 title="Categories"

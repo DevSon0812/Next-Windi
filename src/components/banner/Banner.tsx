@@ -2,7 +2,7 @@ import CustomImages from '@/components/images/Images';
 
 function Banner() {
     return (
-        <section className="container  mt-4 mb-6 lg:(mt-8 mb-12) relative">
+        <section className="w-full max-w-1600px mx-auto px-5 mt-4 mb-6 lg:(mt-8 mb-12) relative">
             <CustomImages
                 className="w-full h-300px rounded-md
 								 mx-auto  md:(h-500px) lg:(h-600px) object-cover"
