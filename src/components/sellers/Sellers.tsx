@@ -3,11 +3,11 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
 
+import { IProductsProps } from '@/interfaces';
 import { Button } from '../compound/button';
 import Title from '../primitive/Text/Title';
 import Products from '../../../public/api/products.json';
 import Product from '../compound/product/Product';
-import { IProductsProps } from '@/interfaces';
 
 export default function Seller() {
     const swiperConfig = {
